@@ -1,0 +1,106 @@
+
+/* التصميم العام */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fb;
+  color: #333;
+  line-height: 1.8;
+}
+
+/* شريط التنقل */
+.navbar {
+  padding: 15px 0;
+}
+
+.navbar-brand {
+  font-size: 22px;
+}
+
+.nav-link {
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #dbeafe !important;
+}
+
+/* الصفحة الرئيسية */
+.hero {
+  background: linear-gradient(135deg, #0d6efd, #084298);
+  color: white;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  margin-bottom: 20px;
+}
+
+.hero p {
+  max-width: 700px;
+  margin: auto;
+}
+
+/* البطاقات */
+.card {
+  border: none;
+  border-radius: 12px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.card-body {
+  padding: 25px;
+}
+
+/* الأزرار */
+.btn {
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+
+/* الاختبار */
+.quiz-option {
+  display: block;
+  width: 100%;
+  margin-bottom: 12px;
+  text-align: right;
+  padding: 12px;
+}
+
+.quiz-option:hover {
+  background-color: #0d6efd;
+  color: white;
+}
+
+/* شريط قوة كلمة المرور */
+.progress {
+  height: 15px;
+  border-radius: 10px;
+}
+
+.progress-bar {
+  transition: width 0.4s;
+}
+
+/* أسفل الصفحة */
+footer {
+  margin-top: 50px;
+}
+
+/* الشاشات الصغيرة */
+@media (max-width: 768px) {
+  .hero {
+    padding: 50px 15px;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .card-body {
+    padding: 18px;
+  }
+}
